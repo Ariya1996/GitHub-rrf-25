@@ -2,11 +2,14 @@
 # 02. Data construction
 
 library(tidyverse)
+library(labelled)
+library(haven)
 # RRF - 2024 - Construction
 
 #### Read data ----
 
-data_path <- "ADD-YOUR-PATH"
+data_path <- "C:/Users/Ariyasuren.Baldansen/Desktop/wb-training-reproducibility/day-1/Transparent and Credible Analytics/Course Materials/DataWork/Data"
+#data      <- read_dta(file.path(data_path, "Raw/TZA_CCT_baseline.dta"))
 
 # Preliminary - Load data
 # Load HH data
