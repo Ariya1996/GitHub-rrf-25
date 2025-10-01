@@ -1,5 +1,5 @@
 # Reproducible Research Fundamentals 
-# 02. Data construction
+# 02. Data construction exercise
 
 library(tidyverse)
 library(labelled)
