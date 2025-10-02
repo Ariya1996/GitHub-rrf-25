@@ -11,7 +11,7 @@
 
 # Load data -----
 #household level data
-data_path <- "ADD-YOUR-PATH"
+data_path <- "C:/Users/Ariyasuren.Baldansen/Desktop/wb-training-reproducibility/day-1/Transparent and Credible Analytics/Course Materials/DataWork/Data"
 hh_data   <- read_dta(file.path(data_path, "Final/TZA_CCT_analysis.dta"))
 
 # secondary data 
