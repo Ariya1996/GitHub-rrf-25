@@ -111,3 +111,6 @@ secondary_data <- tza_amenity %>%
 write_dta(data_clean_hh, file.path(data_path, "Intermediate/TZA_CCT_HH.dta"))
 write_dta(data_clean_hh_member, file.path(data_path, "Intermediate/TZA_CCT_HH_mem.dta"))
 write_dta(secondary_data, file.path(data_path, "Intermediate/secondary.dta"))
+
+
+
